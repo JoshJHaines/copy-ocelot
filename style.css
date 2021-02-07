@@ -1,0 +1,256 @@
+#container{
+    background-color: black;
+    height: 100vh;
+    width: 98vw;
+}
+#safety{
+    background-color: #48a4d4;
+    width: 100%;
+    text-align: center;
+}
+#header{
+    height: auto;
+    width: 100%;
+    display: flex;
+    background: white;
+    border-bottom-style: solid;
+    border-color: #efefef;
+    border-width: 1px;
+}
+
+#header-left {
+    display: flex;
+    align-items: center;
+}
+
+#header-left > img {
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+
+#header-middle {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;   
+    align-items: center;
+}
+
+#header-right {
+    width: auto;
+    height: auto;
+    display: flex;
+    padding: 0px, 0px, 0px, 0px;
+    justify-content: flex-end;   
+    align-items: center;
+}
+
+#header-right > img {
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+}
+
+.head-a{
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+#safe-a{
+    color: white;
+    font-weight: 300;
+}
+
+a{
+    margin-bottom: 0px;
+    text-decoration: none;
+    color: #49a4d5;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    font-family: "Square Market", Helvetica, Arial, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+}
+
+h1{
+    font-size: 62px;
+    line-height: 72px;
+    letter-spacing: -1.5px;
+    margin: 0px 200px 28px 200px;
+    text-align: center;
+}
+
+h2{
+    color: black;
+    font-size: 30px;
+    letter-spacing: -0.5px;
+    margin: 0px 200px 28px 200px;
+    text-align: center;
+}
+
+button{
+    width: 200px;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 20px;
+    background-color: #49a4d5;
+    color: white;
+    text-align: center;
+    appearance: none;
+    position: relative;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 1px;
+    border-radius: 5px;
+    text-rendering: optimizeLegibility;
+    font-weight: 600;
+    font-family: "Square Market", Helvetica, Arial, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+    
+}
+
+.box {
+    width: 100%;
+    height: 150px;
+}
+
+#b1{
+    background-color: white;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px 0px;
+    align-items: center;
+    
+}
+
+#b2{
+   background-color: white;
+   height: auto;
+   display: flex;
+}
+#b2 > img{
+    width: 100%;
+}
+
+
+#b3{
+    background-color: #030303;
+    height: auto;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+#b3 > h1, #b3 > h2{
+    color: white
+}
+
+#b3 > a {
+    font-size: 30px;
+}
+
+#b4{
+    background-color: white;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    border: 0px 30px;
+}
+
+.sub-box{
+    height: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sub-text{
+    height: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+
+}
+
+.sub-text > img {
+    height: auto ;
+    width:100%;
+    border: 30px;
+    margin: 20px;
+}
+
+#b5{
+    background-color: #f2f2f2;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#b6{
+    height: auto;
+    width: auto;
+}
+#b6 > img{
+    width: 100%;
+    height: auto;
+}
+
+#b7{
+    background-color: #f2f2f2;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+#footer{
+    background: black;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    text-align: left;
+    flex-wrap: wrap;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important;
+}
+
+.foot-section{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.foot-title, .foot-link{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 600;
+    font-family: "Square Market", Helvetica, Arial, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+
+}
+.foot-title{
+    color: #737373;
+}
+.foot-link{
+    color: #f9f9f9
+}
